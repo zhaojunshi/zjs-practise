@@ -14,7 +14,7 @@ public class 猜数字 {
         // 循环猜数字
 
         do {
-            System.out.println("请输入1-100之间的数字");
+            System.out.println("请输入 1-100 之间的数字");
             guess = sc.nextInt();
             if (guess > num) {
                 System.out.println("哥们，太大了");
